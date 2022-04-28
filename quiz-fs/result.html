@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+	<link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+<h1>Score Board</h1>
+
+<div id ="scoreTxt"></div>
+    
+		
+		
+			
+	<script>
+	
+	if(score >= 4){
+	 
+	 document.getElementById("scoreTxt").innerHTML = "Congratulations! You have made " + score + " correct answers out of 5.";
+	 }else{
+	 document.getElementById("scoreTxt").innerHTML = "You have made " + score + " correct answers out of 5.";;
+	 }
+	
+	</script>		
+   
+</body>
+
+</html>

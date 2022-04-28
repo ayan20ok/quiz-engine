@@ -1,0 +1,137 @@
+body
+{
+	font-family: cursive;
+	background:url("../images/bak.jpg");
+	
+}
+
+
+
+
+p{
+	font-family: cursive;
+    padding-left: 10px;
+}
+
+span{
+	    margin: 15%;
+    font-family: cursive;
+}
+
+#content{
+	width: 50%;
+    margin: auto;
+    background: #ffebcd;
+    padding-left: 15px;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+.container
+{
+	display:flex;
+	margin: 10px;
+}
+
+.item{
+ background:red;
+ width:100px;
+ height:150px;
+ margin: 10px
+}
+
+.greenBox{
+ background:green;
+ width:100px;
+ height:150px;
+ margin: 10px
+}
+
+.blueBox{
+ background:blue;
+ width:180px;
+ height:150px;
+ margin: 10px
+}
+
+.yellowBox{
+ background:rgb(255,255,0);
+ width:180px;
+ height:150px;
+ margin: 10px
+}
+
+.itembox-boundary
+{
+	width:40%;
+	
+}
+
+.hide {
+    display: none;
+}
+
+.drop-targets
+{
+	display:flex;
+	
+	width: 60%;
+}
+
+.item-box
+{
+	/*border: 2px solid grey;*/
+	width:200px;
+	height:200px;
+	margin:10px;
+}
+
+.box
+{
+	border: 2px solid grey;
+	width:200px;
+	height:200px;
+	margin:10px;
+}
+
+.drag-over {
+    border: dashed 3px red;
+}
+
+.submit
+{
+	padding: 10px;
+    margin: 10px;
+    background-color: #137ce5;
+    border: none;
+    color: white;
+	cursor: pointer;
+}
+
+#nques{
+	margin-top: 50px;
+    margin-left: 40%;
+	cursor: pointer;
+
+}
+
+#feedback{
+	
+	width: 300px;
+    height: 100px;
+    background-color: #eaeebb;
+    border-radius: 10px;
+    border: 5px solid gray;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    padding: 10px;
+	
+	
+	
+}
+
+#scoreTxt
+{
+	padding-bottom: 20px;
+}

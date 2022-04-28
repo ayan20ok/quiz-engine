@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<h1 id="QuesNo"></h1>
+<div class="yellowBox"></div>
+<p>Please select the colour values given below to identify the color displayed above.</p>
+  <input type="checkbox" id="html" name="colors" value="red">
+  <label for="html">Red:255 </label><br>
+  <input type="checkbox" id="css" name="colors" value="green">
+  <label for="css">Green:255</label><br>
+  <input type="checkbox" id="javascript" name="colors" value="cyan">
+  <label for="javascript">Cyan 200</label>
+
+<br>
+
+<button class="submit" value="submit">Submit</button>
+
+<div id="feedback" class="hide">
+		<div id="fb-Txt"></div>
+		<button id="nques" class="hide" onclick="loadNextPage()">Next</button>	
+		
+		</div>
+<script>
+var tNoCAns = 2;
+</script>
+<script src="js/mmcq.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

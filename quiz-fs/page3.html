@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<h1 id="QuesNo"></h1>
+<div class="blueBox"></div>
+<p>Please select the colour displayed above.</p>
+  <input type="radio" id="html" name="colors" value="red">
+  <label for="html">Red </label><br>
+  <input type="radio" id="css" name="colors" value="green">
+  <label for="css">Green</label><br>
+  <input type="radio" id="javascript" name="colors" value="blue">
+  <label for="javascript">Blue</label>
+
+<br>
+
+<button class="submit" value="submit">Submit</button>
+
+<div id="feedback" class="hide">
+		<div id="fb-Txt"></div>
+		<button id="nques" class="hide" onclick="loadNextPage()">Next</button>	
+		
+		</div>
+
+<script src="js/mcq.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
